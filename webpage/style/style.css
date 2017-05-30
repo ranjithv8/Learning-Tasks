@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: cursive; }
+
+.klm-home-background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("../images/home_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.klm-home-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 11.25%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #FFF;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.4);
+  border-right: 1px solid #00a1de;
+  z-index: 6;
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in; }
+
+.klm-home-content-container {
+  margin: 10px 0 10px 13%;
+  width: 85.25%;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+  transition: all 300ms ease-in; }
+
+.klm-home-header__header-title {
+  margin-top: 250px;
+  display: inline-block;
+  background: #FFF;
+  padding: 0% 2%;
+  font-size: 60px;
+  color: #007F7F; }
+
+.klm-home-content {
+  width: 100%;
+  box-sizing: border-box; }
+
+.klm-home-content-header {
+  font-size: 16px;
+  color: #FFF;
+  margin: 0px;
+  background: rgba(0, 49, 69, 0.9);
+  padding: 6px; }
+
+.klm-home-content-search {
+  background: #FFF;
+  padding: 2.6%; }
+
+.klm-home-content-search__list-item {
+  border: 1px solid #c2deea;
+  padding: 2.6%;
+  margin-bottom: 30px;
+  height: 300px; }
+
+.klm-home-content-search__count {
+  color: #00a1de;
+  font-size: 40px;
+  line-height: 1.3; }
+
+.klm-home-menu__items {
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center; }
+
+.klm-home-menu__items--blue {
+  background: #00a1de;
+  color: #FFF; }
+
+.klm-home-menu__items-content {
+  position: relative;
+  top: 50%; }
+
+@media only screen and (max-width: 768px) {
+  .klm-home-menu {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    border-right: 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4); }
+
+  .klm-home-menu__items {
+    display: inline-block;
+    width: 47%;
+    height: 100%;
+    text-align: center;
+    padding: 10px; }
+
+  .klm-home-menu__items-content {
+    top: auto; }
+
+  .klm-home-content-container {
+    margin: 0px;
+    width: 100%; }
+
+  .klm-home-content-header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #003145;
+    top: 44px;
+    left: 0px; }
+
+  .klm-home-content-search {
+    border-top: 15px solid #00a1de; } }
+
+/*# sourceMappingURL=style.css.map */
